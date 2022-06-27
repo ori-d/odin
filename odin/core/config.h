@@ -1,0 +1,5 @@
+#ifndef ODIN_CORE_CONFIG_H
+#define ODIN_CORE_CONFIG_H 1
+
+
+#endif /* ODIN_CORE_CONFIG_H */

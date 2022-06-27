@@ -1,0 +1,18 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        "*.c": "c",
+        "*.h": "c",
+        "*.h.in": "c",
+        "memory_resource": "c"
+    },
+    "editor.minimap.scale": 2,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "git.autofetch": true,
+    "workbench.colorTheme": "Dark+ Tailwind",
+    "workbench.iconTheme": "material-icon-theme"
+}

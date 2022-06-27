@@ -1,0 +1,33 @@
+{
+    "add extern C": {
+        "prefix": "#ifcpp",
+        "body": [
+            "#ifdef __cplusplus",
+            "extern \"C\" {",
+            "#endif /* __cplusplus */",
+            "",
+            "$0",
+            "",
+            "#ifdef __cplusplus",
+            "}",
+            "#endif /* __cplusplus */",
+        ],
+        "description": "add extern C"
+    },
+    "cmake define": {
+        "prefix": "#cmdefine@",
+        "body": [
+            "#cmakedefine $1 @$1@\n$0"
+        ]
+    },
+    "MSVC Bug": {
+        "prefix": "#msvc",
+        "body": [
+            "#ifdef _WIN32",
+            "#  include <stdint.h>",
+            "#else",
+            "#  include <stddef.h>",
+            "#endif /* _WIN32 */"
+        ]
+    }
+}

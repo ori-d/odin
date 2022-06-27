@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools-extension-pack",
+        "melak47.ninja-syntax",
+        "wayou.vscode-todo-highlight",
+        "jeff-hykin.xd-theme",
+        "praveenpuglia.tailwind-breeze",
+        "cschlosser.doxdocgen",
+        "hasanali.gitignore-templates",
+        "pkief.material-icon-theme",
+        "tabnine.tabnine-vscode",
+        "ms-vscode.test-adapter-converter",
+        "hbenl.vscode-test-explorer",
+        "jeff-hykin.better-cpp-syntax",
+        "vangware.dark-plus-tailwind",
+        "ms-vscode.hexeditor"
+    ]
+}
